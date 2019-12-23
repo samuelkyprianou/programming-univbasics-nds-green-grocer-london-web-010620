@@ -34,7 +34,7 @@ end
 
 def apply_coupons(cart, coupons)
 d = 1 
-
+while 
 end
 
 def apply_clearance(cart)
