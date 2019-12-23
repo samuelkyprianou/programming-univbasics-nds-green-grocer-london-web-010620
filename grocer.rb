@@ -20,8 +20,10 @@ while d < cart.length do
     new_cart_item[:count] += 1 
   else 
     new_cart_item = {
-      item: cart[d][:item]
-      price: cart[d][]
+      item: cart[d][:item],
+      price: cart[d][:price],
+      clearance: cart[d][:clearance],
+      
     }
 end
 
