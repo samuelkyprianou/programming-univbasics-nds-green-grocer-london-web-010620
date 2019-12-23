@@ -25,6 +25,7 @@ while d < cart.length do
       clearance: cart[d][:clearance],
       count: 1
     }
+    
 end
 
 def apply_coupons(cart, coupons)
