@@ -36,7 +36,7 @@ def apply_coupons(cart, coupons)
 d = 1 
 while d < coupons.length do 
   cart_item = find_item_by_name_in_collection(coupons[d][:item], cart)
-  
+  couponed
 end
 
 def apply_clearance(cart)
