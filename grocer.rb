@@ -77,7 +77,7 @@ final_cart = apply_clearance(coupon_cart)
 d = 0 
 total = 0
 while d < final_cart.length do
-  total += final_cart[d][:price] * [final_cart][d][:count]
+  total += final_cart[d][:price] * final_cart[d][:count]
   d += 1
 end
 if total > 100
