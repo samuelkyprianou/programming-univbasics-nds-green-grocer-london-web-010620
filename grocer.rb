@@ -46,7 +46,7 @@ while d < coupons.length do
     cart_item_with_coupon = {
       item: couponed_item_name,
       price: coupons[d][:cost] / coupons[d][:num]
-      
+      count: 
     }
     
 end
