@@ -27,7 +27,9 @@ while d < cart.length do
     }
     new_cart << new_cart_item
   end
-  
+  d += 1 
+end
+new_cart
 end
 
 def apply_coupons(cart, coupons)
