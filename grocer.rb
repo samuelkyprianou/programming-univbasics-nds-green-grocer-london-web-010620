@@ -21,7 +21,7 @@ while d < cart.length do
   else 
     new_cart_item = {
       item: cart[d][:item]
-      price: 
+      price: cart[d][]
     }
 end
 
