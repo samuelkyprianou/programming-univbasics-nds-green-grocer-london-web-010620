@@ -75,5 +75,8 @@ coupon_cart = apply_coupons(checkout_cart, coupons)
 final_cart = apply_clearance(coupon_cart)
 
 d = 0 
-while d < final_cart.length
+while d < final_cart.length do
+  return final_cart[d][:price]
+  d += 1
+end
 end
