@@ -50,7 +50,7 @@ while d < coupons.length do
       clearance: cart_item[:clearance]
     }
     cart << cart_item_with_coupon
-    cart_item[:count] -= 
+    cart_item[:count] -= coupons[d][:num]
 end
 
 def apply_clearance(cart)
