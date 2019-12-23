@@ -47,7 +47,7 @@ while d < coupons.length do
       item: couponed_item_name,
       price: coupons[d][:cost] / coupons[d][:num]
       count: coupons[d][:num]
-      clearance: 
+      clearance: cart_item
     }
     
 end
