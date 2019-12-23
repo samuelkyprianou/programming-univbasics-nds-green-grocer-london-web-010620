@@ -23,7 +23,7 @@ while d < cart.length do
       item: cart[d][:item],
       price: cart[d][:price],
       clearance: cart[d][:clearance],
-      count: 
+      count: 1
     }
 end
 
