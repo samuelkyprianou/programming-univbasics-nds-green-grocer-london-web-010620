@@ -62,7 +62,7 @@ def apply_clearance(cart)
 d = 0 
 while d < cart.length do
   if cart[d][:clearance]
-    cart[d][:price] = cart[d][:price] * 0.8
+    cart[d][:price] = cart[d][:price] - ()
   end
   d += 1 
 end
