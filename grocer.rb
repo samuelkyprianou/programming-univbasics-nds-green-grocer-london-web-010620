@@ -81,5 +81,5 @@ while d < final_cart.length do
   d += 1
 end
 if total > 100
-  total -= 
+  total -= total 
 end
