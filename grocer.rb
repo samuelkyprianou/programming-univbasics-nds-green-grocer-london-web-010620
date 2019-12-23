@@ -17,7 +17,8 @@ d = 0
 while d < cart.length do
   new_cart_item = find_item_by_name_in_collection(cart[d][:item], new_cart)
   if new_cart_item
-    new_cart_item[:count] += 1
+    new_cart_item[:count] += 1 
+  else 
 end
 
 def apply_coupons(cart, coupons)
