@@ -15,7 +15,8 @@ def consolidate_cart(cart)
 new_cart = []
 d = 0 
 while d < cart.length do
-  new_cart_item = find_item_by_name_in_collection(cart[d][:item], )
+  new_cart_item = find_item_by_name_in_collection(cart[d][:item], new_cart)
+  
 end
 
 def apply_coupons(cart, coupons)
