@@ -78,7 +78,7 @@ d = 0
 total = 0
 while d < final_cart.length do
   total += final_cart[d][:price] * [final_cart][d][:coupon_cart]
-  return final_cart[d][:price]
   d += 1
 end
+if total > 100
 end
