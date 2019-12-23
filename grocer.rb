@@ -19,7 +19,9 @@ while d < cart.length do
   if new_cart_item
     new_cart_item[:count] += 1 
   else 
-    new_cart_item
+    new_cart_item = {
+      
+    }
 end
 
 def apply_coupons(cart, coupons)
