@@ -33,6 +33,7 @@ new_cart
 end
 
 def apply_coupons(cart, coupons)
+d = 1 
 
 end
 
