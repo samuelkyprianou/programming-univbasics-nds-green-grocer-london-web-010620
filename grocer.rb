@@ -37,7 +37,7 @@ d = 1
 while d < coupons.length do 
   cart_item = find_item_by_name_in_collection(coupons[d][:item], cart)
   couponed_item_name = "#{coupons[d][:item]} W/COUPON"
-  cart_item_with_coupon = 
+  cart_item_with_coupon = find_item_by_name_in_collection()
 end
 
 def apply_clearance(cart)
